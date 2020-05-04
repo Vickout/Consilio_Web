@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 import "./styles.css";
 
-
 import {
     BarsOutlined,
     BarChartOutlined,
@@ -15,7 +14,7 @@ import {
   } from '@ant-design/icons';
 import './styles.css';
 
-import { Layout, Menu, Table, Row, Col, Card, Alert, Button } from 'antd';
+import { Layout, Menu, Table, Row, Col, Card, Alert, Button, Progress } from 'antd';
 
 import logo from "../../assets/logo_branco.png"
 
@@ -30,21 +29,21 @@ export default function Planejamento() {
           key: '1',
           resumo: 'Faturamento mensal',
           referencia: 'R$7.000,00',
-          realizado: '10 Downing Street',
+          realizado: <Progress percent={54} showInfo={false} />,
           evolucao: '54%'
         },
         {
           key: '2',
           resumo: 'Implantações',
           referencia: '3',
-          realizado: '10 Downing Street',
+          realizado: <Progress percent={33} showInfo={false} />,
           evolucao: '33%'
         },
         {
             key: '3',
             resumo: 'Novos conhecimentos',
             referencia: '2',
-            realizado: '10 Downing Street',
+            realizado: <Progress percent={100} showInfo={false} />,
             evolucao: '100%'
           }
       ];
