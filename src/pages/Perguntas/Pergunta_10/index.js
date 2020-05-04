@@ -4,8 +4,6 @@ import { LeftOutlined } from '@ant-design/icons';
 import { Checkbox, Col, Row, Button } from 'antd'
 import './styles.css';
 
-import logo from "../../../assets/logo_branco.png"
-
 export default function Pergunta10() {
     const history = useHistory();
 

@@ -7,8 +7,6 @@ import {
 import { Button, Radio } from 'antd'
 import './styles.css';
 
-import logo from "../../../assets/logo_branco.png"
-
 export default function Pergunta7() {
     const history = useHistory();
 

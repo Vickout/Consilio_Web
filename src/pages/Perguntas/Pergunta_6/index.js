@@ -7,8 +7,6 @@ import {
 import { Slider, Button } from 'antd'
 import './styles.css';
 
-import logo from "../../../assets/logo_branco.png"
-
 export default function Pergunta6() {
     const history = useHistory();
 

@@ -7,8 +7,6 @@ import {
 import { Checkbox, Col, Row, Button } from 'antd'
 import './styles.css';
 
-import logo from "../../../assets/logo_branco.png"
-
 export default function Pergunta3() {
     const history = useHistory();
 
