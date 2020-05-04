@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: #0f6fc6;
+    height: 80px;
+}
+
+.header h1, .header h2 {
+    color: white;
+}
+
+.header h1 {
+    font-weight: bold;
+    padding: 0px 200px;
+}
+
+img {
+    height: 90px;
+}
+
+.question {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.checkbox-10 {
+    padding: 50px 200px;
+}
+
+.item-10 {
+    padding: 10px 0px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons div {
+    padding: 0px 10px;
+}
+
+.concluir {
+    border-radius: 5px;
+}

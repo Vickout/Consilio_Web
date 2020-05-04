@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    background-color: #0f6fc6;
+    height: 80px;
+}
+
+.header h2 {
+    color: white;
+}
+
+img {
+    height: 90px;
+}
+
+.content {
+    padding: 20px 200px;
+}
+
+#button {
+    height: 300px;
+    width: 300px;
+}
+
+.button-comercial, .button-comercial:hover {
+    background-image: url('../../../assets/comercial.jpg');
+    background-size: cover;
+}
+
+.button-marketing, .button-marketing:hover {
+    background-image: url('../../../assets/marketing.jpg');
+    background-size: cover;
+}
+
+.button-operacional, .button-operacional:hover {
+    background-image: url('../../../assets/operacional.jpg');
+    background-size: cover;
+}
+
+.button-financeiro, .button-financeiro:hover {
+    background-image: url('../../../assets/financeiro.jpg');
+    background-size: cover;
+}
+
+.button-legislacao, .button-legislacao:hover {
+    background-image: url('../../../assets/legislacao.jpg');
+    background-size: cover;
+}
+
+.button-gestao, .button-gestao:hover {
+    background-image: url('../../../assets/gestao.jpg');
+    background-size: cover;
+}

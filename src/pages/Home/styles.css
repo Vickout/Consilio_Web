@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: #0f6fc6;
+    height: 80px;
+}
+
+.header h1, .header h2 {
+    color: white;
+}
+
+.header h1 {
+    font-weight: bold;
+    padding: 0px 40px;
+}
+
+img {
+    height: 90px;
+}
+
+.sider {
+    background-color: #fff;
+  }
