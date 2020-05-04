@@ -13,6 +13,7 @@ import Pergunta8 from './pages/Perguntas/Pergunta_8';
 import Pergunta9 from './pages/Perguntas/Pergunta_9';
 import Pergunta10 from './pages/Perguntas/Pergunta_10';
 import ListaExecucao from './pages/ListaExecucao' ;
+import FaleComSebrae from './pages/FaleComSebrae' ;
 import Home from './pages/Home';
 
 export default function Routes() {
@@ -32,6 +33,7 @@ export default function Routes() {
                 <Route path="/pergunta10" component={Pergunta10} />
                 <Route path="/home" component={Home} />
                 <Route path="/listaExecucao" component={ListaExecucao} />
+                <Route path="/faleComSebrae" component={FaleComSebrae} />
 
             </Switch>
         </BrowserRouter>
