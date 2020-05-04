@@ -4,7 +4,7 @@ import {
     LeftOutlined,
     RightOutlined,
   } from '@ant-design/icons';
-import { Checkbox, Col, Row, Button } from 'antd'
+import { Radio, Button } from 'antd'
 import './styles.css';
 
 import logo from "../../../assets/logo_branco.png"
@@ -28,17 +28,15 @@ export default function Pergunta5() {
                 <img src={logo} alt="consilio"/>
             </header>
             <h1 className="question">Sua empresa tem um processo de atendimento claro e funcional?</h1>
-            <div className="checkbox-4">
-            <Checkbox.Group style={{ width: '100%' }} onChange={()=>{}}>
-                <Row>
-                    <Col className="item-4" span={24}>
-                        <Checkbox value="sim">Sim</Checkbox>
-                    </Col>
-                    <Col className="item-4" span={24}>
-                        <Checkbox value="nao">Não</Checkbox>
-                    </Col>
-                </Row>
-            </Checkbox.Group>
+            <div className="radio-4">
+                <Radio.Group className="radio-group-5" onChange={() => {}} >
+                    <Radio className="item-radio-5" value={1}>
+                    Sim
+                    </Radio>
+                    <Radio className="item-radio-5" value={2}>
+                    Não
+                    </Radio>
+                </Radio.Group>
             </div>
             <div className="buttons">
                 <div>

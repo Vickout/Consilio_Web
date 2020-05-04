@@ -1,0 +1,162 @@
+.container {
+    width: 100%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    background-color: #0f6fc6;
+    height: 80px;
+}
+
+.header h2 {
+    color: white;
+}
+
+img {
+    height: 90px;
+}
+
+.sider {
+    background-color: #fff;
+}
+
+.button-analise {
+    margin-bottom: 30px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cards-left {
+    width: 70%;
+    margin-right: 20px;
+}
+
+.evolution, .card-analise {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 1em #ccc;
+}
+
+.card-analise {
+    height: 600px;
+    margin-bottom: 20px;
+}
+
+.chart-analise {
+    padding: 10px 70px
+}
+
+.chart-analise img {
+    height: 250px;
+}
+
+.evolution {
+    width: 30%;
+    height: 600px;
+}
+
+.card-analise h1, .evolution h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-analise h1 {
+    color: #0d3b7f;
+}
+
+.card-analise .card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92px;
+}
+
+.evolution > h1, .card-analise .card-title {
+    background-color: #0f6fc6;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+.analise-content {
+    display: flex;
+    justify-content:center;
+    border-bottom: 1px solid #ccc;
+}
+
+.collum {
+    width: 300px;
+}
+
+.goal-1,
+.goal-2,
+.goal-3,
+.goal-4  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #ccc;
+    height: 80px;
+    width: 250px;
+    margin: 20px 35px;
+}
+
+.goal-1 h1,
+.goal-2 h1,
+.goal-3 h1,
+.goal-4 h1 {
+    font-weight: normal;
+}
+
+
+.goal-1 {
+    border-left: 10px solid #0f6fc6;
+}
+
+.goal-2 {
+    border-left: 10px solid yellow;
+}
+
+.goal-3 {
+    border-left: 10px solid lime;
+}
+
+.goal-4 {
+    border-left: 10px solid tomato;
+}
+
+.step-1 h2, 
+.step-2 h2,
+.step-3 h2,
+.step-4 h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.step-1 .responsible, 
+.step-1 .priority p,
+.step-2 .responsible, 
+.step-2 .priority p,
+.step-3 .responsible, 
+.step-3 .priority p,
+.step-4 .responsible, 
+.step-4 .priority p {
+    font-size: 10px;
+    font-weight: bold;
+    color: #0f6fc6;
+}
+
+.step-1 .priority,
+.step-2 .priority,
+.step-3 .priority, 
+.step-4 .priority {
+    display: flex;
+    justify-content: space-between;
+}

@@ -7,7 +7,7 @@ import logo from "../../../assets/logo_branco.png"
 
 export default function BemVindo() {
     const history = useHistory();
-
+    
     return (
         <div className="container">
             <header className="header" >

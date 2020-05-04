@@ -45,7 +45,7 @@ export default function ListaExecucao() {
         title: 'CUT',
         dataIndex: 'cut',
         key: 'cut',
-        render: text => <a>{text}</a>,
+        render: text => <a href="/normal">{text}</a>,
       },
       {
         title: 'Tarefa',

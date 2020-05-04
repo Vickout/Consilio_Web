@@ -28,12 +28,12 @@ export default function Pergunta9() {
                 <img src={logo} alt="consilio"/>
             </header>
             <h1 className="question">Existem processos e etapas que orientam o trabalho e atendimento do setor de vendas?</h1>
-            <div className="checkbox-4">
+            <div className="radio-9">
             <Radio.Group onChange={() => {}} >
-                <Radio className="item-4" value={1}>
+                <Radio className="item-radio-9" value={1}>
                 Sim
                 </Radio>
-                <Radio className="item-4" value={2}>
+                <Radio className="item-radio-9" value={2}>
                 Não
                 </Radio>
             </Radio.Group>

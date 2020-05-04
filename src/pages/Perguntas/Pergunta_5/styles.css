@@ -25,14 +25,23 @@ img {
     margin-top: 70px;
 }
 
-.checkbox-4 {
-    padding: 70px 300px;
-}
-
-.item-4 {
+.radio-5 {
+    padding: 70px 0px;
+    padding-left: 20px;
     display: flex;
     justify-content: center;
+}
+
+.item-radio-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px 0px;
+}
+
+.radio-group-5 {
+    margin: 0;
+    padding: 0;
 }
 
 .buttons {

@@ -57,6 +57,14 @@ img {
     color: #0d3b7f;
 }
 
+.card h1 {
+    padding-bottom: 15px;
+}
+
+.card img {
+    height: 200px;
+}
+
 .evolution > h1 {
     background-color: #0f6fc6;
     text-align: center;

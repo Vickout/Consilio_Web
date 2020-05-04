@@ -26,13 +26,17 @@ img {
     padding: 0px 100px;
 }
 
-.checkbox-4 {
-    padding: 70px 300px;
-}
-
-.item-4 {
+.radio-9 {
+    padding: 70px 0px;
+    padding-left: 20px;
     display: flex;
     justify-content: center;
+}
+
+.item-radio-9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px 0px;
 }
 

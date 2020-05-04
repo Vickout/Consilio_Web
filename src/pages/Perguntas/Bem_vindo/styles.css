@@ -24,32 +24,32 @@ img {
     width: 300px;
 }
 
-.button-comercial, .button-comercial:hover {
+.content .button-comercial, .content .button-comercial:hover {
     background-image: url('../../../assets/comercial.jpg');
     background-size: cover;
 }
 
-.button-marketing, .button-marketing:hover {
+.content .button-marketing, .content .button-marketing:hover {
     background-image: url('../../../assets/marketing.jpg');
     background-size: cover;
 }
 
-.button-operacional, .button-operacional:hover {
+.content .button-operacional, .content .button-operacional:hover {
     background-image: url('../../../assets/operacional.jpg');
     background-size: cover;
 }
 
-.button-financeiro, .button-financeiro:hover {
+.content .button-financeiro, .content .button-financeiro:hover {
     background-image: url('../../../assets/financeiro.jpg');
     background-size: cover;
 }
 
-.button-legislacao, .button-legislacao:hover {
+.content .button-legislacao, .content .button-legislacao:hover {
     background-image: url('../../../assets/legislacao.jpg');
     background-size: cover;
 }
 
-.button-gestao, .button-gestao:hover {
+.content .button-gestao, .content .button-gestao:hover {
     background-image: url('../../../assets/gestao.jpg');
     background-size: cover;
 }

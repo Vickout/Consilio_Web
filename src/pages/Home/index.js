@@ -14,6 +14,8 @@ import './styles.css';
 
 import logo from "../../assets/logo_branco.png"
 
+import chart from '../../assets/chart.png';
+
 const { Content, Sider } = Layout;
 
 export default function Home() {
@@ -42,9 +44,12 @@ export default function Home() {
                     <Content style={{ margin: '30px 30px' }}>
                         <div className="cards-container">
                             <div className="cards-left">
-                                <div className="card">
-                                    <h1>Impacto de problemas analisados</h1>
-                                </div>
+                                <Link to="/analise">
+                                    <div className="card">
+                                        <h1>Impacto de problemas analisados</h1>
+                                        <img src={chart} alt="gráfico"/>
+                                    </div>
+                                </Link>
                                 <div className="card">
                                     <h1>Próximos passos do seu fluxo</h1>
                                     <div className="steps-container">

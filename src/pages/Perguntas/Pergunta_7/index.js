@@ -4,7 +4,7 @@ import {
     LeftOutlined,
     RightOutlined,
   } from '@ant-design/icons';
-import { Button, Radio } from 'antd'
+import { Button, Radio, Row, Col } from 'antd'
 import './styles.css';
 
 import logo from "../../../assets/logo_branco.png"
@@ -30,18 +30,28 @@ export default function Pergunta7() {
             <h1 className="question">Sua empresa tem metas de vendas?</h1>
             <div className="checkbox-5">
             <Radio.Group onChange={() => {}} >
-                <Radio className="item-5" value={1}>
-                Sim e cumprimos
-                </Radio>
-                <Radio className="item-5" value={2}>
-                Sim, mas não funciona
-                </Radio>
-                <Radio className="item-5" value={3}>
-                Não, mas já fizemos no passado
-                </Radio>
-                <Radio className="item-5" value={4}>
-                Não e nuna tivemos
-                </Radio>
+                <Row>
+                    <Col span={24}>
+                        <Radio className="item-5" value={1}>
+                        Sim e cumprimos
+                        </Radio>
+                    </Col>
+                    <Col span={24}>
+                        <Radio className="item-5" value={2}>
+                        Sim, mas não funciona
+                        </Radio>
+                    </Col>
+                    <Col span={24}>
+                        <Radio className="item-5" value={3}>
+                        Não, mas já fizemos no passado
+                        </Radio>
+                    </Col>
+                    <Col span={24}>
+                        <Radio className="item-5" value={4}>
+                        Não e nuna tivemos
+                        </Radio>
+                    </Col>
+                </Row>
             </Radio.Group>
             </div>
             <div className="buttons">
