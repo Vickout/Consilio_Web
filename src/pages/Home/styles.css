@@ -1,19 +1,17 @@
+.container {
+    width: 100%;
+}
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 0px 20px;
+    padding: 0px 40px;
     background-color: #0f6fc6;
     height: 80px;
 }
 
-.header h1, .header h2 {
+.header h2 {
     color: white;
-}
-
-.header h1 {
-    font-weight: bold;
-    padding: 0px 40px;
 }
 
 img {
@@ -22,4 +20,93 @@ img {
 
 .sider {
     background-color: #fff;
-  }
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cards-left {
+    width: 70%;
+    margin-right: 20px;
+}
+
+.evolution, .card {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 1em #ccc;
+}
+
+.card {
+    height: 290px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.evolution {
+    width: 30%;
+    height: 600px;
+}
+
+.card h1, .evolution h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card h1, .goal h1 {
+    color: #0d3b7f;
+}
+
+.evolution > h1 {
+    background-color: #0f6fc6;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+.goal {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.goal h1 {
+    font-weight: normal;
+}
+
+.steps, .steps-3 {
+    border-radius: 5px;
+    background-color: #ccc;
+    height: 80px;
+    width: 250px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.steps {
+    border-left: 10px solid chartreuse;
+}
+
+.steps-3 {
+    border-left: 10px solid yellow;
+}
+
+.steps h2, .steps-3 h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.steps .responsible, 
+.steps .priority p,
+.steps-3 .responsible, 
+.steps-3 .priority p {
+    font-size: 10px;
+    font-weight: bold;
+    color: #0f6fc6;
+}
+
+.steps .priority, .steps-3 .priority {
+    display: flex;
+    justify-content: space-between;
+}
