@@ -4,3 +4,35 @@
     font-family: 'Montserrat', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
+
+.ant-layout-header {
+    /* sem logar é 64px. Após logar é 100px*/
+    height: 100px;
+    padding: 0 50px;
+    color: rgba(0, 0, 0, 0.65);
+    line-height: 64px;
+    background: #0d3b7f !important;
+}
+
+.ant-layout-sider {
+    position: relative;
+    /* fix firefox can't set width smaller than content on flex item */
+    min-width: 0;
+    background: #f0f2f5 !important;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.ant-layout-sider-trigger {
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    height: 48px;
+    color: #002140 !important;
+    line-height: 48px;
+    text-align: center;
+    background: #f0f2f5 !important;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
