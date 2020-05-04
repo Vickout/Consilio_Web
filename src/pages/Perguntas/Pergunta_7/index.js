@@ -21,12 +21,7 @@ export default function Pergunta7() {
       }  
   
     return (
-        <div className="container">
-            <header className="header" >
-                <h2>Bem-vindo</h2>
-                <h1>Análise Comercial</h1>
-                <img src={logo} alt="consilio"/>
-            </header>
+        <div>
             <h1 className="question">Sua empresa tem metas de vendas?</h1>
             <div className="checkbox-5">
             <Radio.Group onChange={() => {}} >

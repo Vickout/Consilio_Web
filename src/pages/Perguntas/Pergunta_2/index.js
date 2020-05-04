@@ -21,12 +21,7 @@ export default function Pergunta2() {
       }  
 
     return (
-        <div className="container">
-            <header className="header" >
-                <h2>Bem-vindo</h2>
-                <h1>Análise Comercial</h1>
-                <img src={logo} alt="consilio"/>
-            </header>
+        <div>
             <h1 className="question">Como você controla suas informações de venda?</h1>
             <div className="checkbox">
             <Checkbox.Group style={{ width: '100%' }} onChange={()=>{}}>

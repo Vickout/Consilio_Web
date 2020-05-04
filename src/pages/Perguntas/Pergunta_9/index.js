@@ -21,12 +21,7 @@ export default function Pergunta9() {
       }  
 
     return (
-        <div className="container">
-            <header className="header" >
-                <h2>Bem-vindo</h2>
-                <h1>Análise Comercial</h1>
-                <img src={logo} alt="consilio"/>
-            </header>
+        <div>
             <h1 className="question">Existem processos e etapas que orientam o trabalho e atendimento do setor de vendas?</h1>
             <div className="checkbox-4">
             <Radio.Group onChange={() => {}} >
