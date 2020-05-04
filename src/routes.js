@@ -12,7 +12,7 @@ import Pergunta7 from './pages/Perguntas/Pergunta_7';
 import Pergunta8 from './pages/Perguntas/Pergunta_8';
 import Pergunta9 from './pages/Perguntas/Pergunta_9';
 import Pergunta10 from './pages/Perguntas/Pergunta_10';
-
+import ListaExecucao from './pages/ListaExecucao' ;
 import Home from './pages/Home';
 
 export default function Routes() {
@@ -31,6 +31,7 @@ export default function Routes() {
                 <Route path="/pergunta9" component={Pergunta9} />
                 <Route path="/pergunta10" component={Pergunta10} />
                 <Route path="/home" component={Home} />
+                <Route path="/listaExecucao" component={ListaExecucao} />
 
             </Switch>
         </BrowserRouter>

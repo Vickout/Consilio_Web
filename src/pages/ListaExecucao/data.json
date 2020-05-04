@@ -1,0 +1,65 @@
+{
+    "lanes": [
+      {
+        "id": "FAZER",
+        "title": "A fazer",
+        "label": "2/2",
+        "style": {
+          "width": 280,
+          "color": "#0f6fc6"
+        },
+        "cards": [
+          {
+            "id": "1",
+            "title": "Funil de vendas",
+            "label": "Em 4 dias",
+            "description": "Resp. gestor comercial \nPrioridade 1"
+          },
+          {
+            "id": "2",
+            "title": "Padrão de atendimento",
+            "label": "há 1 dia",
+            "description": "Resp. gestor comercial \nPrioridade 1"
+          }
+        ]
+      },
+      {
+        "id": "FAZENDO",
+        "title": "Fazendo",
+        "label": "0/0",
+        "style": {
+          "width": 280,
+          "color": "#0f6fc6"
+        },
+        "cards": []
+      },
+      {
+        "id": "REVISAO",
+        "title": "Revisão",
+        "label": "0/0",
+        "style": {
+          "width": 280,
+          "color": "#0f6fc6"
+        },
+        "cards": []
+      },
+      {
+        "id": "CONCLUIDO",
+        "title": "Concluído",
+        "style": {
+          "width": 280,
+          "color": "#0f6fc6"
+        },
+        "label": "1/1",
+        "cards": [
+          {
+            "id": "3",
+            "title": "Agendamento",
+            "label": "há 1 dia",
+            "description": "+ 500 pontos \n"
+          }
+        ]
+      }
+    ]
+  }
+  
