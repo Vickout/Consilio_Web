@@ -15,6 +15,7 @@ import Pergunta10 from './pages/Perguntas/Pergunta_10';
 import ListaExecucao from './pages/ListaExecucao' ;
 import FaleComSebrae from './pages/FaleComSebrae' ;
 import Home from './pages/Home';
+import Planejamento from './pages/Planejamento';
 
 export default function Routes() {
     return (
@@ -34,6 +35,7 @@ export default function Routes() {
                 <Route path="/home" component={Home} />
                 <Route path="/listaExecucao" component={ListaExecucao} />
                 <Route path="/faleComSebrae" component={FaleComSebrae} />
+                <Route path="/planejamento" component={Planejamento} />
 
             </Switch>
         </BrowserRouter>
