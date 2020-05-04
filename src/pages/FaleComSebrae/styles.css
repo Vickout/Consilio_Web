@@ -3,6 +3,7 @@
     width: 165px;
     height: 165px;
     background-image: url("./eventosPresenciais.svg");
+    margin: 0px 100px 0px 0px;
 }
 
 .eventosOnline {
@@ -10,6 +11,7 @@
     width: 165px;
     height: 165px;
     background-image: url("./eventosOnline.svg");
+    margin: 0px 100px 0px 0px;
 }
 
 .empretec {
@@ -17,6 +19,7 @@
     width: 165px;
     height: 165px;
     background-image: url("./empretec.svg");
+    margin: 0px 100px 0px 0px;
 }
 
 .orientacaoMentoria {
@@ -26,49 +29,46 @@
     background-image: url("./orientacaoMentoria.svg");
 }
 
-.ant-layout {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-flex: 1;
-    -ms-flex: auto;
-    flex: auto;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    /* fix firefox can't set height smaller than content on flex item */
-    min-height: 0;
-    background: #fff;
+.mapa {
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 293px;
+    background-image: url("./mapa.svg");
 }
 
-.ant-layout-header {
-    height: 250px !important;
-    padding: 0 50px;
-    color: rgba(0, 0, 0, 0.65);
-    line-height: 64px;
-    background: #f0f2f5 !important;
+#container  {  	
+	margin: 1em auto;  	
+	width: 100%;  	
+	background: #f0f2f5;  
+	}    
+#header {background: #f0f2f5;}  
+#mainnav {background: #f0f2f5; }    
+#menu  {  	
+	float: right;  	
+	width: 240px;  	
+	background: #f0f2f5;  
+}    
+#contents  {  	
+	float: left;  	
+	background: #f0f2f5;  	
+	margin: 0 0 0 20px;  
+}    
+#footer  {  	
+	clear: both;  	
+	background: #f0f2f5;  
 }
 
-.ant-layout-sider {
-    position: relative;
-    /* fix firefox can't set width smaller than content on flex item */
-    min-width: 0;
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s;
-    background: #f0f2f5;
-}
-
-.ant-layout-sider-trigger {
-    position: fixed;
-    bottom: 0;
-    z-index: 1;
-    height: 48px;
-    color: #002140;
-    line-height: 48px;
+.azul {
     text-align: center;
-    background: #fff;
-    cursor: pointer;
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s;
+    margin-top: 70px;
+    font-weight: bold;
+    color: #0d3b7f;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 70px;
+    font-weight: bold;
+    color: #0d3b7f;
+    font-size: xx-large;
 }

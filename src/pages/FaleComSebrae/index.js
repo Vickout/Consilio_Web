@@ -10,7 +10,7 @@ import {
     SearchOutlined,
     TeamOutlined
   } from '@ant-design/icons';
-import './styles.css';
+
 
 import logo from "../../assets/logo_branco.png"
 
