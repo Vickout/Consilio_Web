@@ -7,8 +7,6 @@ import {
 import { Slider, Button } from 'antd'
 import './styles.css';
 
-import logo from "../../../assets/logo_branco.png"
-
 export default function Pergunta1() {
     const history = useHistory();
 
@@ -66,12 +64,7 @@ export default function Pergunta1() {
     };
 
     return (
-        <div className="container">
-            <header className="header" >
-                <h2>Bem-vindo</h2>
-                <h1>Análise Comercial</h1>
-                <img src={logo} alt="consilio"/>
-            </header>
+        <div>
             <h1 className="question">Qual o tamanho do seu time comercial?</h1>
             <div className="slider">
                 <Slider max={6} marks={marks} step={1} defaultValue={0} />

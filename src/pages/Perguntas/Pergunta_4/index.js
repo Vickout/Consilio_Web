@@ -7,8 +7,6 @@ import {
 import { Radio, Button } from 'antd'
 import './styles.css';
 
-import logo from "../../../assets/logo_branco.png"
-
 export default function Pergunta4() {
     const history = useHistory();
 
@@ -22,12 +20,7 @@ export default function Pergunta4() {
       
 
     return (
-        <div className="container">
-            <header className="header" >
-                <h2>Bem-vindo</h2>
-                <h1>Análise Comercial</h1>
-                <img src={logo} alt="consilio"/>
-            </header>
+        <div>
             <h1 className="question">Você tem alguma ferramenta para fazer e organizar os seus orçamentos?</h1>
             <div className="radio-4">
                 <Radio.Group className="radio-group-4" onChange={() => {}} >

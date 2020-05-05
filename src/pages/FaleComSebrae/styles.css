@@ -1,0 +1,74 @@
+.eventosPresenciais {
+    background-repeat: no-repeat;
+    width: 165px;
+    height: 165px;
+    background-image: url("./eventosPresenciais.svg");
+    margin: 0px 100px 0px 0px;
+}
+
+.eventosOnline {
+    background-repeat: no-repeat;
+    width: 165px;
+    height: 165px;
+    background-image: url("./eventosOnline.svg");
+    margin: 0px 100px 0px 0px;
+}
+
+.empretec {
+    background-repeat: no-repeat;
+    width: 165px;
+    height: 165px;
+    background-image: url("./empretec.svg");
+    margin: 0px 100px 0px 0px;
+}
+
+.orientacaoMentoria {
+    background-repeat: no-repeat;
+    width: 165px;
+    height: 165px;
+    background-image: url("./orientacaoMentoria.svg");
+}
+
+.mapa {
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 293px;
+    background-image: url("./mapa.svg");
+}
+
+#container  {  	
+	margin: 1em auto;  	
+	width: 100%;  	
+	background: #f0f2f5;  
+	}    
+#header {background: #f0f2f5;}  
+#mainnav {background: #f0f2f5; }    
+#menu  {  	
+	float: right;  	
+	width: 240px;  	
+	background: #f0f2f5;  
+}    
+#contents  {  	
+	float: left;  	
+	background: #f0f2f5;  	
+	margin: 0 0 0 20px;  
+}    
+#footer  {  	
+	clear: both;  	
+	background: #f0f2f5;  
+}
+
+.azul {
+    text-align: center;
+    margin-top: 70px;
+    font-weight: bold;
+    color: #0d3b7f;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 70px;
+    font-weight: bold;
+    color: #0d3b7f;
+    font-size: xx-large;
+}

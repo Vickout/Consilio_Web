@@ -4,8 +4,6 @@ import { LeftOutlined } from '@ant-design/icons';
 import { Checkbox, Col, Row, Button } from 'antd'
 import './styles.css';
 
-import logo from "../../../assets/logo_branco.png"
-
 export default function Pergunta10() {
     const history = useHistory();
 
@@ -18,12 +16,7 @@ export default function Pergunta10() {
       }  
 
     return (
-        <div className="container">
-            <header className="header" >
-                <h2>Bem-vindo</h2>
-                <h1>Análise Comercial</h1>
-                <img src={logo} alt="consilio"/>
-            </header>
+        <div >
             <h1 className="question">Com que frequência são feitos planejamentos comerciais?</h1>
             <div className="checkbox-10">
             <Checkbox.Group style={{ width: '100%' }} onChange={()=>{}}>
