@@ -1,31 +1,35 @@
 .eventosPresenciais {
     background-repeat: no-repeat;
-    width: 165px;
-    height: 165px;
+    background-size: cover;
+    width: 109px;
+    height: 109px;
     background-image: url("./eventosPresenciais.svg");
-    margin: 0px 100px 0px 0px;
+    margin: 0px 20px 0px 0px;
 }
 
 .eventosOnline {
     background-repeat: no-repeat;
-    width: 165px;
-    height: 165px;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
     background-image: url("./eventosOnline.svg");
-    margin: 0px 100px 0px 0px;
+    margin: 0px 20px 0px 0px;
 }
 
 .empretec {
     background-repeat: no-repeat;
-    width: 165px;
-    height: 165px;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
     background-image: url("./empretec.svg");
-    margin: 0px 100px 0px 0px;
+    margin: 0px 20px 0px 0px;
 }
 
 .orientacaoMentoria {
     background-repeat: no-repeat;
-    width: 165px;
-    height: 165px;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
     background-image: url("./orientacaoMentoria.svg");
 }
 
@@ -36,39 +40,41 @@
     background-image: url("./mapa.svg");
 }
 
-#container  {  	
-	margin: 1em auto;  	
+.container-ajuda  {
+    display: flex;
+    justify-content: center;  	
 	width: 100%;  	
 	background: #f0f2f5;  
-	}    
-#header {background: #f0f2f5;}  
-#mainnav {background: #f0f2f5; }    
-#menu  {  	
-	float: right;  	
-	width: 240px;  	
-	background: #f0f2f5;  
-}    
+}
+.first-box, .second-box {
+    margin-right: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 1em #ccc;
+    padding: 20px;
+}
+
+.sugestion {
+    margin-bottom: 40px;
+}
+
+.second-box {
+    text-align: center;
+    padding: 20px 30px;
+}
+
 #contents  {  	
 	float: left;  	
-	background: #f0f2f5;  	
-	margin: 0 0 0 20px;  
-}    
-#footer  {  	
-	clear: both;  	
-	background: #f0f2f5;  
+	background: #f0f2f5; 
 }
 
 .azul {
     text-align: center;
-    margin-top: 70px;
     font-weight: bold;
     color: #0d3b7f;
 }
 
-.titulo {
-    text-align: center;
-    margin-top: 70px;
+.titulo-first-box {
     font-weight: bold;
+    font-size: 20px;
     color: #0d3b7f;
-    font-size: xx-large;
 }
