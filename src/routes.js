@@ -1,8 +1,21 @@
-import React, { useState } from 'react';
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import {
+    BarChartOutlined, BarsOutlined,
 
+    BulbOutlined,
+    PlayCircleOutlined,
+    ScheduleOutlined,
+
+    TeamOutlined
+} from '@ant-design/icons';
+import { Layout, Menu } from 'antd';
+import React, { useState } from 'react';
+import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
+import FaleComSebrae from './pages/FaleComSebrae';
+import Home from './pages/Home';
+import ListaExecucao from './pages/ListaExecucao';
 import BemVindo from './pages/Perguntas/Bem_vindo';
 import Pergunta1 from './pages/Perguntas/Pergunta_1';
+import Pergunta10 from './pages/Perguntas/Pergunta_10';
 import Pergunta2 from './pages/Perguntas/Pergunta_2';
 import Pergunta3 from './pages/Perguntas/Pergunta_3';
 import Pergunta4 from './pages/Perguntas/Pergunta_4';
@@ -19,22 +32,7 @@ import Analise from './pages/Analise';
 import FaleComSebrae from './pages/FaleComSebrae' ;
 import Planejamento from './pages/Planejamento';
 
-import {
-    BarsOutlined,
-    BarChartOutlined,
-    BulbOutlined,
-    PlayCircleOutlined,
-    ScheduleOutlined,
-    SearchOutlined,
-    TeamOutlined,
-    PlusCircleOutlined
-} from '@ant-design/icons';
-
-import { Layout, Menu, Table, Row, Col, Card, Alert, Button, Progress } from 'antd';
-
-import logo from "./assets/logo_branco.png"
-
-const { Content, Sider } = Layout;
+const { Sider } = Layout;
 
 export default function Routes() {
 
@@ -70,7 +68,6 @@ export default function Routes() {
                             <Menu.Item key="4" icon={<PlayCircleOutlined />}><Link to='listaExecucao'>Execução</Link></Menu.Item>
                             <Menu.Item key="5" icon={<BulbOutlined />}><Link to='home'>Educação</Link></Menu.Item>
                             <Menu.Item key="6" icon={<TeamOutlined />}><Link to='faleComSebrae'>Fale com o Sebrae</Link></Menu.Item>
-                            <Menu.Item key="7" icon={<SearchOutlined />}><Link to='home'>Ajuda</Link></Menu.Item>
                         </Menu>
                     </Sider>
                     <Layout className="site-layout">
