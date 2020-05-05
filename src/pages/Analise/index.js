@@ -18,11 +18,16 @@ export default function Analise() {
         history.push('/listaExecucao');
     }
 
+    function GoToBegining() {
+        history.push('/');
+    }
+
     return (
             <>
             <Button 
                 style={{backgroundColor: "#0d3b7f", borderRadius: 5, color: "white"}} 
                 className="button-analise"
+                onClick={GoToBegining}
             >
                 <RedoOutlined style={{fontSize: 20}}/>
                 Refazer Avaliação

@@ -15,8 +15,9 @@ img {
     height: 90px;
 }
 
-.content {
-    padding: 20px 200px;
+.row-container {
+    margin: 30px 0px;
+    margin-left: 90px;
 }
 
 #button {
@@ -24,32 +25,32 @@ img {
     width: 300px;
 }
 
-.content .button-comercial, .content .button-comercial:hover {
+.gutter-row .button-comercial, .gutter-row .button-comercial:hover {
     background-image: url('../../../assets/comercial.jpg');
     background-size: cover;
 }
 
-.content .button-marketing, .content .button-marketing:hover {
+.gutter-row .button-marketing, .gutter-row .button-marketing:hover {
     background-image: url('../../../assets/marketing.jpg');
     background-size: cover;
 }
 
-.content .button-operacional, .content .button-operacional:hover {
+.gutter-row .button-operacional, .gutter-row .button-operacional:hover {
     background-image: url('../../../assets/operacional.jpg');
     background-size: cover;
 }
 
-.content .button-financeiro, .content .button-financeiro:hover {
+.gutter-row .button-financeiro, .gutter-row .button-financeiro:hover {
     background-image: url('../../../assets/financeiro.jpg');
     background-size: cover;
 }
 
-.content .button-legislacao, .content .button-legislacao:hover {
+.gutter-row .button-legislacao, .gutter-row .button-legislacao:hover {
     background-image: url('../../../assets/legislacao.jpg');
     background-size: cover;
 }
 
-.content .button-gestao, .content .button-gestao:hover {
+.gutter-row .button-gestao, .gutter-row .button-gestao:hover {
     background-image: url('../../../assets/gestao.jpg');
     background-size: cover;
 }

@@ -19,7 +19,7 @@ export default function Home() {
                 <div className="steps-container">
                     <Row>
                         <Col span={12}>
-                            <Link to="/listaExecucao">
+                            <Link to="/detalhes">
                                 <div className="steps">
                                     <h2>Funil de Vendas</h2>
                                     <p className="responsible">Resp: Gestor Comercial</p>

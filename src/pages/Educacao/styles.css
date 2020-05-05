@@ -1,0 +1,13 @@
+.imagem-cursos {
+    width: 100%;
+    height: 100%;
+    margin: -30px -30px;
+}
+
+.imagem-cursos .cursosUp {
+    height: 350px;
+}
+
+.imagem-cursos .cursosDown {
+    height: 670px;
+}

@@ -7,8 +7,8 @@ export default function BemVindo() {
     const history = useHistory();
     
     return (
-            <div>
-                <Row gutter={[16, 24]}>
+            <div className="row-container">
+                <Row  gutter={[16, 24]}>
                     <Col className="gutter-row" span={8}>
                         <Button 
                             onClick={() => history.push('/pergunta1')} 
